@@ -12,6 +12,18 @@ Churn analysis is the evaluation of a company's customer loss rate in order to r
   * Usage Churn
 
 ## Decision Cycle of a Subscriber
-![image](https://user-images.githubusercontent.com/92584055/225848824-c8b2e2a1-8df5-44ca-a346-80ef65582eaf.png)
+![image](https://user-images.githubusercontent.com/92584055/225849258-4d5f6843-b504-47ad-90e6-0a90d5453430.png)
 
+## The different Churn Segments:
+  * Conditionally Loyal Subscriber
+     * Frequently re-evaluates purchase decisions
+     * Choose brand on rational basis
+     * Likes to change to test new products
+  * Conditional Churner
+  * Lifestyle Migrator
+     * Uncontrollable change in needs/usage
+     * Bheaviour
+     * Involuntary Churn
+  * Unsatisfied Churner
+    * Unsatisfied Customer
 
