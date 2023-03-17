@@ -31,7 +31,19 @@ Churn analysis is the evaluation of a company's customer loss rate in order to r
 
 ### 🟢 For EDA, please refer to : Churn Analysis - EDA.ipynb  
 ### 🟢 For Model Building, please refer to: Churn Analysis - Model Building.ipynb  
-### 🟢 For Model Deployment, please refer to app.py  
+### 🟢 For Model Deployment, please refer to main.py  
 ### 🟢 Creating the flask API
 
+app = Flask("__name__")
+The loadPage method calls our home.html.
 
+@app.route("/")
+def loadPage():
+	return render_template('home.html', query="")
+The predict method is our POST method, which is basically called when we pass all the inputs from our front end and click SUBMIT.
+
+@app.route("/", methods=['POST'])
+def predict():
+The run() method of Flask class runs the application on the local development server.
+
+app.run()
