@@ -34,9 +34,8 @@ Churn analysis is the evaluation of a company's customer loss rate in order to r
 ### 🟢 For Model Deployment, please refer to main.py  
 ### 🟢 Creating the flask API
 
-'
-app = Flask("__name__")
-'
+
+' app = Flask("__name__") '
 
 The loadPage method calls our home.html.
 
