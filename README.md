@@ -68,7 +68,7 @@ python app.py
 
 Below message in Python shell is seen, which indicates that our App is now hosted at http://127.0.0.1:5000/ or localhost:5000
 ```
-* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 
 
