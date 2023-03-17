@@ -67,6 +67,8 @@ HERE'S HOW OUR FRONTEND LOOKS LIKE:
 
 ![image](https://user-images.githubusercontent.com/92584055/225853617-6b74afa1-a2a2-4190-93d4-d404e01c7950.png)
 
-```python
-    # Your Python code goes here
-```
+
+'''python
+app = Flask("__name__")
+'''
+
