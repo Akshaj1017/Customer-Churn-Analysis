@@ -35,23 +35,23 @@ Churn analysis is the evaluation of a company's customer loss rate in order to r
 ### 🟢 Creating the flask API
 
 
-' app = Flask("__name__") '
+app = Flask("__name__")
 
 The loadPage method calls our home.html.
 
-code(@app.route("/")  
+@app.route("/")  
 def loadPage():  
-	return render_template('home.html', query="")  )
+	return render_template('home.html', query="")
 	
 
 The predict method is our POST method, which is basically called when we pass all the inputs from our front end and click SUBMIT.  
 
-code(@app.route("/", methods=['POST'])  
-def predict():  )
+@app.route("/", methods=['POST'])  
+def predict():
 
 The run() method of Flask class runs the application on the local development server.  
 
-code(app.run()  )
+app.run()
 
 Yay, our model is ready, let’s test our bot. The above given Python script is executed from Python shell.
 
@@ -66,9 +66,3 @@ Below message in Python shell is seen, which indicates that our App is now hoste
 HERE'S HOW OUR FRONTEND LOOKS LIKE:
 
 ![image](https://user-images.githubusercontent.com/92584055/225853617-6b74afa1-a2a2-4190-93d4-d404e01c7950.png)
-
-
-'''python
-	app = Flask("__name__")
-'''
-
