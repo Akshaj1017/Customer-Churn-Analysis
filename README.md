@@ -69,6 +69,6 @@ HERE'S HOW OUR FRONTEND LOOKS LIKE:
 
 
 '''python
-app = Flask("__name__")
+	app = Flask("__name__")
 '''
 
