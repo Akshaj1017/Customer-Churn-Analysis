@@ -74,4 +74,4 @@ Below message in Python shell is seen, which indicates that our App is now hoste
 
 HERE'S HOW OUR FRONTEND LOOKS LIKE:
 
-![Customer Retention](C:\Users\User\Downloads\Screenshot 2023-06-04 114800.png)
+![Customer Retention](https://github.com/Akshaj1017/Customer-Churn-Analysis-Feynn-Labs---Project-1/assets/92584055/e50ad3fc-8570-49fc-818e-72ec9ae7cd65)
